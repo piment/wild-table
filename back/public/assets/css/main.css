@@ -144,3 +144,9 @@ footer {
 footer a, footer a:visited {
     color: white;
 }
+
+@media screen and (min-width: 600px) {
+    #tables {
+        flex-direction: row;
+    }
+}
