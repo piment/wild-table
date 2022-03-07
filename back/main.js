@@ -37,7 +37,7 @@ const randomStudentsOrder = studentsList => {
     return newStudentsOrderList;
 };
 
-const getStudentsListForThisWeek = currentWeekNumber => {
+ async function getStudentsListForThisWeek(currentWeekNumber) {
     if(tablesListForWeek[currentWeekNumber] !== undefined) {
         return tablesListForWeek[currentWeekNumber];
     }
@@ -59,8 +59,10 @@ Routes definitions for the app
 */
 
 // Route for site index
-app.get("/", cors(), (req, res) => {
-    res.json(getStudentsListForThisWeek(currentWeekNumber));
+app.get("/", cors(), async (req, res) => {
+    const data = await getStudentsListForThisWeek(currentWeekNumber);
+    res.render("index", {studentsList: data, week: currentWeekNumber});
+    // res.json(getStudentsListForThisWeek(currentWeekNumber));
 });
 
 
