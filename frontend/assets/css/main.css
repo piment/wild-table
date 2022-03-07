@@ -87,15 +87,20 @@ main {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+    padding: 20px 0;
 }
 
 #options select {
     width: 45%;
 }
 
+main article {
+    border: 1px solid var(--color-main-primary);
+}
+
 /* FOOTER */
 footer {
-    background-color: var(--wcs-pink);
+    background-color: var(--color-main-primary);
     width: 100%;
     text-align: center;
     padding: 5px;

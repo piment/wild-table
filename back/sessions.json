@@ -1,0 +1,26 @@
+{
+    "toulouse": {
+        "js": {
+            "date_start": "",
+            "date_end": "",
+            "students": [
+                {"id": 0, "firstName": "antoine", "lastName": "belloni"},
+                {"id": 1, "firstName": "antoine", "lastName": "dabonneville Geuns"},
+                {"id": 2, "firstName": "breogan", "lastName": "bertelet"},
+                {"id": 3, "firstName": "christel", "lastName": "deveza"},
+                {"id": 4, "firstName": "francois", "lastName": "pobelle"},
+                {"id": 5, "firstName": "henri", "lastName": "bergeret"},
+                {"id": 6, "firstName": "jimmy", "lastName": "vogt"},
+                {"id": 7, "firstName": "joeri", "lastName": "kaiser"},
+                {"id": 8, "firstName": "lucas", "lastName": "jimenez"},
+                {"id": 9, "firstName": "pierre", "lastName": "berger"},
+                {"id": 10, "firstName": "pierre-jean", "lastName": "amard"},
+                {"id": 11, "firstName": "richard", "lastName": "lafon"},
+                {"id": 12, "firstName": "romain", "lastName": "mura"},
+                {"id": 13, "firstName": "saïf-eddine", "lastName": "miah"},
+                {"id": 14, "firstName": "xavier", "lastName": "yribarren"},
+                {"id": 15, "firstName": "yves-marie", "lastName": "blandin"}
+            ]
+        }
+    }
+}
