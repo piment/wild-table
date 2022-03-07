@@ -61,7 +61,7 @@ Routes definitions for the app
 // Route for site index
 app.get("/", cors(), async (req, res) => {
     const data = await getStudentsListForThisWeek(currentWeekNumber);
-    res.render("index", {studentsList: data, week: currentWeekNumber});
+    res.render(".back/index", {studentsList: data, week: currentWeekNumber});
     // res.json(getStudentsListForThisWeek(currentWeekNumber));
 });
 
